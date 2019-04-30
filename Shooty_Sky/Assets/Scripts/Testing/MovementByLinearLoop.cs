@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShip : Ship
+public class MovementByLinearLoop : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,13 +13,6 @@ public class EnemyShip : Ship
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    protected Vector3 LinearLoopingPosition(Vector3 direction)
-    {
-        direction = direction.normalized;
-        
         
     }
 }

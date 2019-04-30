@@ -14,9 +14,9 @@
           <e p="MusicControl.cs" t="Include" />
           <e p="PlayerControl.cs" t="Include" />
           <e p="Testing" t="Include">
-            <e p="EnemySHip.cs" t="Include" />
-            <e p="PlayerShip.cs" t="Include" />
-            <e p="Ship.cs" t="Include" />
+            <e p="ClampPositionOnScreen.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+            <e p="MovementByInput.cs" t="Include" />
           </e>
         </e>
       </e>

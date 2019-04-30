@@ -2099,6 +2099,7 @@ GameObject:
   - component: {fileID: 1584158344}
   - component: {fileID: 1584158346}
   - component: {fileID: 1584158345}
+  - component: {fileID: 1584158347}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -2129,11 +2130,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1584158343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c282ed3686792be4e8de3341e6f2f4cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 37b1c5beb0902d04eb8b81304c9ecb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 0.15
-  maxHealth: 0
 --- !u!212 &1584158346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2182,6 +2181,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1584158347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584158343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb9c8e6eb62ef348b512529c7566d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 0.15
 --- !u!1 &1676449461
 GameObject:
   m_ObjectHideFlags: 0
