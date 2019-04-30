@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementByInput : Movement
 {
     // Start is called before the first frame update
-    void Update()
+    private void FixedUpdate()
     {
         transform.position += InputMovement();
     }

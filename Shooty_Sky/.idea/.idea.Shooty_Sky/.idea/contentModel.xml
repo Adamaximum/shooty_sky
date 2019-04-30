@@ -17,6 +17,9 @@
             <e p="ClampPositionOnScreen.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
             <e p="MovementByInput.cs" t="Include" />
+            <e p="MovementByLinearLoop.cs" t="Include" />
+            <e p="RepositionByScreenSize.cs" t="Include" />
+            <e p="ResizeByScreenSize.cs" t="Include" />
           </e>
         </e>
       </e>
