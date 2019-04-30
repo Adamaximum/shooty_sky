@@ -21,9 +21,9 @@ TagManager:
   - 
   - Barrier
   - Player
+  - PlayerProjectile
   - Enemy
-  - Projectile
-  - 
+  - EnemyProjectile
   - 
   - 
   - 

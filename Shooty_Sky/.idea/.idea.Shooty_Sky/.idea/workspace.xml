@@ -14,26 +14,55 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/MovementByInput.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
-                <marker date="1556641235129" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556641235129" expanded="true" signature="124:493" ph="{...}" />
-                <marker date="1556641235129" expanded="true" signature="271:330" ph="{...}" />
-                <marker date="1556641235129" expanded="true" signature="371:491" ph="{...}" />
+                <marker date="1556658695022" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556658695022" expanded="true" signature="124:493" ph="{...}" />
+                <marker date="1556658695022" expanded="true" signature="271:330" ph="{...}" />
+                <marker date="1556658695022" expanded="true" signature="371:491" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/TransformByScreenSize.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/FireByInput.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1556640866878" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556640866878" expanded="true" signature="159:1489" ph="{...}" />
-                <marker date="1556640866878" expanded="true" signature="338:1487" ph="{...}" />
+                <marker date="1556664199754" expanded="true" signature="6:92" ph="..." />
+                <marker date="1556664199754" expanded="true" signature="134:399" ph="{...}" />
+                <marker date="1556664199754" expanded="true" signature="241:392" ph="{...}" />
+                <marker date="1556664199754" expanded="true" signature="292:386" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/BarrierTransform.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+              <folding>
+                <marker date="1556659653117" expanded="false" signature="6:107" ph="..." />
+                <marker date="1556659653117" expanded="true" signature="154:1347" ph="{...}" />
+                <marker date="1556659653117" expanded="true" signature="333:1345" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/EnemySpawnerTransform.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <marker date="1556662266774" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556662266774" expanded="true" signature="130:512" ph="{...}" />
+                <marker date="1556662266774" expanded="true" signature="274:509" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,8 +76,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing/MovementByInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing/FireByInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing/EnemySpawnerTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing/TransformByScreenSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Testing/BarrierTransform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +97,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/ResizeByScreenSize.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/TransformByScreenSize.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/MovementByInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/BarrierTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/SpawnerTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/ShootByInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/EnemySpawnerTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/FireByInput.cs" />
       </list>
     </option>
   </component>
@@ -136,12 +172,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556384251249</updated>
       <workItem from="1556384259383" duration="6711000" />
-      <workItem from="1556632736277" duration="7756000" />
+      <workItem from="1556632736277" duration="12644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14467000" />
+    <option name="totallyTimeSpent" value="19355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,7 +192,7 @@
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15809524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15809524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -183,7 +219,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Errors In Solution" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" weight="0.3295238" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,27 +320,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/MovementByInput.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/BarrierTransform.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
           <folding>
-            <marker date="1556641235129" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556641235129" expanded="true" signature="124:493" ph="{...}" />
-            <marker date="1556641235129" expanded="true" signature="271:330" ph="{...}" />
-            <marker date="1556641235129" expanded="true" signature="371:491" ph="{...}" />
+            <marker date="1556659653117" expanded="false" signature="6:107" ph="..." />
+            <marker date="1556659653117" expanded="true" signature="154:1347" ph="{...}" />
+            <marker date="1556659653117" expanded="true" signature="333:1345" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/TransformByScreenSize.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/MovementByInput.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+        <state relative-caret-position="195">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
-            <marker date="1556640866878" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556640866878" expanded="true" signature="159:1489" ph="{...}" />
-            <marker date="1556640866878" expanded="true" signature="338:1487" ph="{...}" />
+            <marker date="1556658695022" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556658695022" expanded="true" signature="124:493" ph="{...}" />
+            <marker date="1556658695022" expanded="true" signature="271:330" ph="{...}" />
+            <marker date="1556658695022" expanded="true" signature="371:491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/EnemySpawnerTransform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1556662266774" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556662266774" expanded="true" signature="130:512" ph="{...}" />
+            <marker date="1556662266774" expanded="true" signature="274:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Testing/FireByInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1556664199754" expanded="true" signature="6:92" ph="..." />
+            <marker date="1556664199754" expanded="true" signature="134:399" ph="{...}" />
+            <marker date="1556664199754" expanded="true" signature="241:392" ph="{...}" />
+            <marker date="1556664199754" expanded="true" signature="292:386" ph="{...}" />
           </folding>
         </state>
       </provider>

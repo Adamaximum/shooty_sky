@@ -14,9 +14,11 @@
           <e p="MusicControl.cs" t="Include" />
           <e p="PlayerControl.cs" t="Include" />
           <e p="Testing" t="Include">
+            <e p="BarrierTransform.cs" t="Include" />
+            <e p="EnemySpawnerTransform.cs" t="Include" />
+            <e p="FireByInput.cs" t="Include" />
             <e p="MovementByInput.cs" t="Include" />
             <e p="MovementByLinearLoop.cs" t="Include" />
-            <e p="TransformByScreenSize.cs" t="Include" />
           </e>
         </e>
       </e>
