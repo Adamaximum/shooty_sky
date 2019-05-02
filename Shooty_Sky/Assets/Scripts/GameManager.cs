@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour {
     public float currentTime = 0;
     
     public int astDest; //Count of Destroyed Asteroids
+    public int destReq; //Required number to be destroyed before proceeding
 
     public Text AsteroidsDestroyed;
     public Text AstDestNum;
@@ -125,7 +127,7 @@ public class GameManager : MonoBehaviour {
         }
 
         currentTime += Time.deltaTime;
-        if (gameState == 2 && currentTime > 0.1) //Increases likelihood of asteroid spawning
+        if (gameState == 2 && currentTime > 0.1 && astDest < destReq) //Increases likelihood of asteroid spawning
         {
             spawnChance++;
             currentTime = 0;
@@ -186,8 +188,6 @@ public class GameManager : MonoBehaviour {
 
             astArt.Add(Time.time); //Time
         }
-
-        
     }
 
     void spawnStar()
