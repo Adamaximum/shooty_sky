@@ -11,7 +11,7 @@ public class BarrierTransform : MonoBehaviour
     public float thickness;
     
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         var max = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
         var min = Camera.main.ScreenToWorldPoint(Vector2.zero);

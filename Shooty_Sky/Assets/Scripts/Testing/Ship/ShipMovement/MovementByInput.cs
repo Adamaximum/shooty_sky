@@ -10,11 +10,6 @@ public class MovementByInput : MonoBehaviour
     // Start is called before the first frame update
     private void FixedUpdate()
     {
-        transform.position += InputMovement();
-    }
-    
-    private Vector3 InputMovement()
-    {
-        return new Vector2(Input.GetAxis("Horizontal") * maxSpeedX, Input.GetAxis("Vertical") * maxSpeedY);
+        transform.position += new Vector3(Input.GetAxis("Horizontal") * (maxSpeedX * Time.deltaTime), Input.GetAxis("Vertical") * (maxSpeedY * Time.deltaTime));
     }
 }

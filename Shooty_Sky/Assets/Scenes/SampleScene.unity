@@ -2299,6 +2299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 8803351294905690663, guid: ff5879518b26cde41a3cec29b9548b35, type: 3}
+  coolDownTime: 0.25
 --- !u!1 &1415907565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,8 +2601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb9c8e6eb62ef348b512529c7566d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeedX: 0.125
-  maxSpeedY: 0.1
+  maxSpeedX: 5
+  maxSpeedY: 7.5
 --- !u!61 &1584158348
 BoxCollider2D:
   m_ObjectHideFlags: 0
