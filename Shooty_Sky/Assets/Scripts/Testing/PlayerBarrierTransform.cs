@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class BarrierTransform : MonoBehaviour
+public class PlayerBarrierTransform : MonoBehaviour
 {
     public enum Side {Up, Down, Left, Right}
 

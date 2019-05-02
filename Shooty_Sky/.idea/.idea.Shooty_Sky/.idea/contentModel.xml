@@ -14,21 +14,13 @@
           <e p="MusicControl.cs" t="Include" />
           <e p="PlayerControl.cs" t="Include" />
           <e p="Testing" t="Include">
-            <e p="BarrierTransform.cs" t="Include" />
+            <e p="DestroyOnInvisible.cs" t="Include" />
+            <e p="EnemySpawner.cs" t="Include" />
             <e p="EnemySpawnerTransform.cs" t="Include" />
-            <e p="LinearMovement.cs" t="Include" />
-            <e p="Projectile" t="Include">
-              <e p="DestroyOnInvisible.cs" t="Include" />
-              <e p="MovementByLinearDirection.cs" t="Include" />
-            </e>
-            <e p="Ship" t="Include">
-              <e p="ShipFire" t="Include">
-                <e p="FireByInput.cs" t="Include" />
-              </e>
-              <e p="ShipMovement" t="Include">
-                <e p="MovementByInput.cs" t="Include" />
-              </e>
-            </e>
+            <e p="FireByInput.cs" t="Include" />
+            <e p="MovementByInput.cs" t="Include" />
+            <e p="MovementByLinearDirection.cs" t="Include" />
+            <e p="PlayerBarrierTransform.cs" t="Include" />
           </e>
         </e>
       </e>
