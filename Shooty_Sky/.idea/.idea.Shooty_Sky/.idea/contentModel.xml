@@ -19,6 +19,10 @@
           <e p="PositionByConstantVelocity.cs" t="Include" />
           <e p="PositionByInput.cs" t="Include" />
           <e p="SpawnEnemyOnFrames.cs" t="Include" />
+          <e p="StateMachineBehaviors" t="Include">
+            <e p="DelayState.cs" t="Include" />
+            <e p="SetBoolOnEntry.cs" t="Include" />
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="AsteroidControl.cs" t="Include" />
