@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MusicControl : MonoBehaviour
 {
-
     public GameManager gm;
+    public SpawnManager sm;
+
     public AudioSource Layer3;
     public AudioSource Layer4;
     public AudioSource Layer5;
@@ -15,6 +16,7 @@ public class MusicControl : MonoBehaviour
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        sm = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
@@ -24,15 +26,15 @@ public class MusicControl : MonoBehaviour
         {
             Layer3.mute = false;
         }
-        if (gm.spawnChance >= 250)
+        if (sm.spawnChance >= 250)
         {
             Layer4.mute = false;
         }
-        if (gm.spawnChance >= 500)
+        if (sm.spawnChance >= 500)
         {
             Layer5.mute = false;
         }
-        if (gm.spawnChance >= 750)
+        if (sm.spawnChance >= 750)
         {
             Layer6.mute = false;
         }
