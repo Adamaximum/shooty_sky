@@ -2236,7 +2236,7 @@ MonoBehaviour:
   killSlots: 0
   verticalSlots: 4
   horizontalSlots: 8
-  slotSize: 2
+  slotSize: 0.5
   spawner: {fileID: 1294714185}
 --- !u!1 &1962044407
 GameObject:
