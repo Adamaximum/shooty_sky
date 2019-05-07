@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Level1Wave3
+  m_Name: L0W1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -31,7 +31,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5
+    m_StopTime: 2.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -53,7 +53,7 @@ AnimationClip:
   m_Events:
   - time: 0.5
     functionName: SpawnEnemy
-    data: 0,1
+    data: 0,8
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
@@ -67,42 +67,42 @@ AnimationClip:
     messageOptions: 0
   - time: 0.5
     functionName: SpawnEnemy
-    data: 0,9
+    data: 0,4
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.5
     functionName: SpawnEnemy
-    data: 0,10
+    data: 0,6
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5
-    functionName: SpawnEnemy
-    data: 0,0
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 1.5
+  - time: 2.5
     functionName: SpawnEnemy
     data: 0,3
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5
+  - time: 2.5
     functionName: SpawnEnemy
-    data: 0,8
+    data: 0,9
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5
+  - time: 2.5
     functionName: SpawnEnemy
-    data: 0,11
+    data: 0,5
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.5
+    functionName: SpawnEnemy
+    data: 0,7
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
