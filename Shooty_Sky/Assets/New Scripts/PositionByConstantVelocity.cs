@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementByLinearDirection: MonoBehaviour
+public class PositionByConstantVelocity: MonoBehaviour
 {
     public Vector3 direction;
     public float speed;

@@ -6,6 +6,20 @@
     <e p="C:\Users\zhouf\Desktop\ShootySkies\shooty_sky\shooty_sky" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="New Scripts" t="Include">
+          <e p="ClampPositionOnScreen.cs" t="Include" />
+          <e p="DealDamageOnCollision.cs" t="Include" />
+          <e p="DestroyOnCollision.cs" t="Include" />
+          <e p="DestroyOnInvisible.cs" t="Include" />
+          <e p="FireByInput.cs" t="Include" />
+          <e p="FireByTimer.cs" t="Include" />
+          <e p="GenerateSlotsOnStart.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="PositionByAnimationCurve.cs" t="Include" />
+          <e p="PositionByConstantVelocity.cs" t="Include" />
+          <e p="PositionByInput.cs" t="Include" />
+          <e p="SpawnEnemyOnFrames.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AsteroidControl.cs" t="Include" />
           <e p="BulletControl.cs" t="Include" />
@@ -13,15 +27,6 @@
           <e p="GameManager.cs" t="Include" />
           <e p="MusicControl.cs" t="Include" />
           <e p="PlayerControl.cs" t="Include" />
-          <e p="Testing" t="Include">
-            <e p="DestroyOnInvisible.cs" t="Include" />
-            <e p="EnemySpawner.cs" t="Include" />
-            <e p="EnemySpawnerTransform.cs" t="Include" />
-            <e p="FireByInput.cs" t="Include" />
-            <e p="MovementByInput.cs" t="Include" />
-            <e p="MovementByLinearDirection.cs" t="Include" />
-            <e p="PlayerBarrierTransform.cs" t="Include" />
-          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
