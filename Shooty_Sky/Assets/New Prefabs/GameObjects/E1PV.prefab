@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8521738143365215475}
   - component: {fileID: -5273921144463031615}
   - component: {fileID: 7999781109316758352}
+  - component: {fileID: 3113789434696769108}
   - component: {fileID: -8466173246107036639}
   m_Layer: 12
   m_Name: E1PV
@@ -119,6 +120,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &3113789434696769108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888007262396172937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893c8b6b83409094484fdde27c425049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 2
 --- !u!114 &-8466173246107036639
 MonoBehaviour:
   m_ObjectHideFlags: 0
