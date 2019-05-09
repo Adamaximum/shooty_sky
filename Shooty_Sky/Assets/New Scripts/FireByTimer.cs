@@ -11,6 +11,8 @@ public class FireByTimer : MonoBehaviour
     private float _remainingTime;
 
     public StartingTargetPositionTracker startTargetTracker;
+
+    public AudioSource audioSource;
     
     // Start is called before the first frame update
     private void Start()
@@ -40,6 +42,8 @@ public class FireByTimer : MonoBehaviour
             
             projectile.GetComponent<PositionByConstantVelocity>().direction = new Vector3(dirX, dirY);
             _remainingTime = timer;
+
+            audioSource.Play();
         }
     }
 }

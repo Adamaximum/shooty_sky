@@ -16,6 +16,8 @@ public class FireByInput : MonoBehaviour
     private Vector3 lastPosition;
     private Vector3 thisPosition;
 
+    public AudioSource audioSource;
+
     private void Start()
     {
         thisPosition = transform.position;
@@ -38,6 +40,8 @@ public class FireByInput : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Space) && _coolDownRemaining <= 0)
         {
+            audioSource.Play();
+
             Instantiate(p0P0, transform.position, Quaternion.identity);
             _coolDownRemaining = coolDownTime;
         }
