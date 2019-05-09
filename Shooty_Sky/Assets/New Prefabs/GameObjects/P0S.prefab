@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 5412920097891193833}
   - component: {fileID: 5064765308749812230}
   - component: {fileID: 2717674166745726723}
+  - component: {fileID: -609007884987078520}
   - component: {fileID: 1375807331}
   m_Layer: 9
   m_Name: P0S
@@ -161,8 +162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a922190f88ac84c8c05c5e54c4efa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: 0
+  scoreOnKilled: 0
   maxHealth: 20
   audioSource: {fileID: 8635235953024908914}
+  tracker: {fileID: 6264604281377662667}
 --- !u!114 &4100795809375542861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,6 +222,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!114 &-609007884987078520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2555825329873411423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314600f10f0c1654da1357ff96847ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tracker: {fileID: 6264604281377662667}
 --- !u!82 &1375807331
 AudioSource:
   m_ObjectHideFlags: 0

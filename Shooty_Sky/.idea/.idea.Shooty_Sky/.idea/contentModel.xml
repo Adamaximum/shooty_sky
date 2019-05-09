@@ -6,16 +6,17 @@
     <e p="C:\Users\zhouf\Desktop\ShootySkiesClone\shooty_sky\shooty_sky" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="DelayState.cs" t="Include" />
-        <e p="GameMasterTracker.cs" t="Include" />
         <e p="New Scripts" t="Include">
           <e p="ClampPositionOnScreen.cs" t="Include" />
           <e p="DealDamageOnCollision.cs" t="Include" />
+          <e p="DelayState.cs" t="Include" />
           <e p="DestroyOnCollision.cs" t="Include" />
           <e p="DestroyOnInvisible.cs" t="Include" />
           <e p="FireByInput.cs" t="Include" />
           <e p="FireByTimer.cs" t="Include" />
           <e p="FireOnFrames.cs" t="Include" />
+          <e p="GameMasterTracker.cs" t="Include" />
+          <e p="GameOverOnDestroy.cs" t="Include" />
           <e p="GenerateSlotsOnStart.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="PlayerTracker.cs" t="Include" />
@@ -25,13 +26,15 @@
           <e p="PositionByUniaxialHoming.cs" t="Include" />
           <e p="PositionWhileEntering.cs" t="Include" />
           <e p="PositionWhileFiring.cs" t="Include" />
+          <e p="progressGameStateOnFrame.cs" t="Include" />
+          <e p="ProgressStateOnDestroy.cs" t="Include" />
+          <e p="ProgressStateOnFrames.cs" t="Include" />
+          <e p="ProgressStateOnKeyDown.cs" t="Include" />
+          <e p="SetBoolOnEntry.cs" t="Include" />
           <e p="SpawnEnemyOnFrames.cs" t="Include" />
           <e p="StartingTargetPositionTracker.cs" t="Include" />
+          <e p="UpdateScore.cs" t="Include" />
         </e>
-        <e p="progressGameStateOnFrame.cs" t="Include" />
-        <e p="ProgressStateOnDestroy.cs" t="Include" />
-        <e p="ProgressStateOnFrames.cs" t="Include" />
-        <e p="ProgressStateOnKeyDown.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AsteroidControl.cs" t="Include" />
           <e p="BulletControl.cs" t="Include" />
@@ -41,7 +44,6 @@
           <e p="PlayerControl.cs" t="Include" />
           <e p="SpawnManager.cs" t="Include" />
         </e>
-        <e p="SetBoolOnEntry.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
@@ -70,7 +72,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="UpdateScore.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
