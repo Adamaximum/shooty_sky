@@ -6,6 +6,7 @@
     <e p="C:\Users\zhouf\Desktop\ShootySkiesClone\shooty_sky\shooty_sky" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DelayState.cs" t="Include" />
         <e p="GameMasterTracker.cs" t="Include" />
         <e p="New Scripts" t="Include">
           <e p="ClampPositionOnScreen.cs" t="Include" />
