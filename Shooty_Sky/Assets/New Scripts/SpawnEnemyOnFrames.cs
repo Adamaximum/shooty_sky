@@ -13,6 +13,8 @@ public class SpawnEnemyOnFrames : MonoBehaviour
     
     public Transform[][] type2Slots;
 
+    public PlayerTracker player;
+
     public void SpawnEnemy(string input)
     {
         var inputs = input.Split(',');
@@ -44,6 +46,7 @@ public class SpawnEnemyOnFrames : MonoBehaviour
         }
         
         var enemyObj = Instantiate(enemyTypes[slotSide % 2 == 0 ? enemyType : enemyType + 3], startingPos, Quaternion.identity);
+        enemyObj.GetComponent<PlayerTracker>().playerTransform = player.playerTransform;
         var enemyPath = enemyObj.GetComponent<PositionByAnimationCurve>();
         enemyPath.startingPos = startingPos;
         enemyPath.targetPos = targetPos;
