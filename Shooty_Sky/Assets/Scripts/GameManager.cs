@@ -13,13 +13,18 @@ public class GameManager : MonoBehaviour
     public Text Subtitle;
 
     public int gameState = 0;
-    //1 = Story0
-    //2 = Title
-    //3 = Story1
-    //4 = Wave0
-    //5
-    //6
-    
+    //0 = Story0
+    //1 = Title
+    //2 = Story1
+    //3 = Wave0
+    //4 = Story2
+    //5 = Wave1
+    //6 = Story3
+    //7 = Wave2
+    //8 = Story4
+    //9 = Boss
+    //10 = Story5 / Play Again?
+    //11 = Game Over
 
     // Use this for initialization
     void Start ()
@@ -46,21 +51,57 @@ public class GameManager : MonoBehaviour
 
     void gameStates()
     {
-        if (gameState == 1) //Start State
+        if (gameState == 0) //Story0
+        {
+
+            AsteroidsDestroyed.text = "";
+        }
+        if (gameState == 1) //Title
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 gameState++;
             }
-            AsteroidsDestroyed.text = "";
         }
-        if (gameState == 2) //Game State
+        if (gameState == 2) //Story1
         {
             Title.text = "";
             Subtitle.text = "";
-            AsteroidsDestroyed.text = "Asteroids Destroyed:";
+            
         }
-        if (gameState == 3) //End State
+        if (gameState == 3) //Wave0
+        {
+            AsteroidsDestroyed.text = "Score:";
+        }
+        if (gameState == 4) //Story2
+        {
+            
+        }
+        if (gameState == 5) //Wave1
+        {
+
+        }
+        if (gameState == 6) //Story3
+        {
+
+        }
+        if (gameState == 7) //Wave2
+        {
+
+        }
+        if (gameState == 8) //Story4
+        {
+
+        }
+        if (gameState == 9) //Boss
+        {
+
+        }
+        if (gameState == 10) //Story5 / Play Again
+        {
+
+        }
+        if (gameState == 11) //Game Over
         {
             Title.text = "\nGame Over!";
             Subtitle.text = "\n\n\n\nPress R to Play Again!";
