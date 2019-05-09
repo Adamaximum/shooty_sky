@@ -13,9 +13,13 @@ public class GameManager : MonoBehaviour
     public Text Subtitle;
 
     public int gameState = 0;
-    //1 = Main Menu
-    //2 = Game
-    //3 = Game Over
+    //1 = Story0
+    //2 = Title
+    //3 = Story1
+    //4 = Wave0
+    //5
+    //6
+    
 
     // Use this for initialization
     void Start ()
