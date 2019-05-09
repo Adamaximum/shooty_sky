@@ -47,7 +47,7 @@ public class SpawnEnemyOnFrames : MonoBehaviour
         
         var enemyObj = Instantiate(enemyTypes[slotSide % 2 == 0 ? enemyType : enemyType + 3], startingPos, Quaternion.identity);
         enemyObj.GetComponent<PlayerTracker>().playerTransform = player.playerTransform;
-        var enemyPath = enemyObj.GetComponent<PositionByAnimationCurve>();
+        var enemyPath = enemyObj.GetComponent<StartingTargetPositionTracker>();
         enemyPath.startingPos = startingPos;
         enemyPath.targetPos = targetPos;
     }

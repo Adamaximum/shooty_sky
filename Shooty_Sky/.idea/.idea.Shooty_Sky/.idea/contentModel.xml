@@ -20,6 +20,7 @@
           <e p="PositionByInput.cs" t="Include" />
           <e p="PositionByUniaxialHoming.cs" t="Include" />
           <e p="SpawnEnemyOnFrames.cs" t="Include" />
+          <e p="StartingTargetPositionTracker.cs" t="Include" />
         </e>
         <e p="PlayerTracker.cs" t="Include" />
         <e p="Scripts" t="Include">

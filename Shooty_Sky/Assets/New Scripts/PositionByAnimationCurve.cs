@@ -10,8 +10,7 @@ public class PositionByAnimationCurve : MonoBehaviour
 
     public bool vertical;
 
-    public Vector2 startingPos;
-    public Vector2 targetPos;
+    public StartingTargetPositionTracker startTargetTracker;
 
     public AnimationCurve posX;
     public AnimationCurve posY;
@@ -35,18 +34,18 @@ public class PositionByAnimationCurve : MonoBehaviour
             Destroy(gameObject);
         }
 
-        var x = vertical && Math.Abs(startingPos.x - targetPos.x) > 0.00001
-            ? Mathf.Lerp(startingPos.x, targetPos.x, posDeviant.Evaluate(_currentTime / screenTime))
+        var x = vertical && Math.Abs(startTargetTracker.startingPos.x - startTargetTracker.targetPos.x) > 0.00001
+            ? Mathf.Lerp(startTargetTracker.startingPos.x, startTargetTracker.targetPos.x, posDeviant.Evaluate(_currentTime / screenTime))
             : vertical
-                ? Mathf.Lerp(startingPos.x - swayAmp, startingPos.x + swayAmp, posX.Evaluate(_currentTime / screenTime))
-                : Mathf.Lerp(startingPos.x, targetPos.x, posX.Evaluate(_currentTime / screenTime));
+                ? Mathf.Lerp(startTargetTracker.startingPos.x - swayAmp, startTargetTracker.startingPos.x + swayAmp, posX.Evaluate(_currentTime / screenTime))
+                : Mathf.Lerp(startTargetTracker.startingPos.x, startTargetTracker.targetPos.x, posX.Evaluate(_currentTime / screenTime));
         
         
-        var y = !vertical && Math.Abs(startingPos.y - targetPos.y) > 0.00001
-            ? Mathf.Lerp(startingPos.y, targetPos.y, posDeviant.Evaluate(_currentTime/screenTime))
+        var y = !vertical && Math.Abs(startTargetTracker.startingPos.y - startTargetTracker.targetPos.y) > 0.00001
+            ? Mathf.Lerp(startTargetTracker.startingPos.y, startTargetTracker.targetPos.y, posDeviant.Evaluate(_currentTime/screenTime))
             : !vertical
-                ? Mathf.Lerp(startingPos.y - swayAmp, startingPos.y + swayAmp, posY.Evaluate(_currentTime/screenTime))
-                : Mathf.Lerp(startingPos.y, targetPos.y, posY.Evaluate(_currentTime/screenTime));
+                ? Mathf.Lerp(startTargetTracker.startingPos.y - swayAmp, startTargetTracker.startingPos.y + swayAmp, posY.Evaluate(_currentTime/screenTime))
+                : Mathf.Lerp(startTargetTracker.startingPos.y, startTargetTracker.targetPos.y, posY.Evaluate(_currentTime/screenTime));
         
         transform.position = new Vector3(x, y);
         

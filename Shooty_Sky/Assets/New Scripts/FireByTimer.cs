@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class FireByTimer : MonoBehaviour
 {
+    public bool vertical;
     public GameObject bullet;
     public float timer;
 
     private float _remainingTime;
 
-    private PositionByAnimationCurve _motionScript;
+    public StartingTargetPositionTracker startTargetTracker;
     
     // Start is called before the first frame update
     private void Start()
     {
         _remainingTime = timer;
-        _motionScript = GetComponent<PositionByAnimationCurve>();
     }
 
     // Update is called once per frame
@@ -27,15 +27,15 @@ public class FireByTimer : MonoBehaviour
             var projectile = Instantiate(bullet, transform.position, Quaternion.identity);
 
             float dirY = 0;
-            if (_motionScript.vertical)
+            if (vertical)
             {
-                dirY = _motionScript.startingPos.y > _motionScript.targetPos.y ? -1 : 1;
+                dirY = startTargetTracker.startingPos.y > startTargetTracker.targetPos.y ? -1 : 1;
             }
 
             float dirX = 0;
-            if (!_motionScript.vertical)
+            if (vertical)
             {
-                dirX = _motionScript.startingPos.x < _motionScript.targetPos.y ? 1 : -1;
+                dirX = startTargetTracker.startingPos.x < startTargetTracker.targetPos.y ? 1 : -1;
             }
             
             projectile.GetComponent<PositionByConstantVelocity>().direction = new Vector3(dirX, dirY);
