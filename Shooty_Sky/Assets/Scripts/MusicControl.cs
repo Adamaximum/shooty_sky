@@ -26,15 +26,15 @@ public class MusicControl : MonoBehaviour
         {
             Layer3.mute = false;
         }
-        if (sm.spawnChance >= 250)
+        if (gm.gameState > 5)
         {
             Layer4.mute = false;
         }
-        if (sm.spawnChance >= 500)
+        if (gm.gameState > 7)
         {
             Layer5.mute = false;
         }
-        if (sm.spawnChance >= 750)
+        if (gm.gameState > 9)
         {
             Layer6.mute = false;
         }
