@@ -231,214 +231,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17408381}
   m_CullTransparentMesh: 0
---- !u!1 &28586021
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 28586022}
-  - component: {fileID: 28586024}
-  - component: {fileID: 28586026}
-  - component: {fileID: 28586025}
-  - component: {fileID: 28586023}
-  m_Layer: 0
-  m_Name: Story5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &28586022
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28586021}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 915164370}
-  m_Father: {fileID: 1293532525}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.243, y: 0.5}
-  m_SizeDelta: {x: 15.99, y: 3.832}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &28586023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28586021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Finally, the rooster leader has been reached. \n\nIt wants to know why
-    the chicken has turned against its own kind. \n\nThe chicken responds, \n\n\u201CBecause...it
-    is the right thing to do!\u201D"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
-  m_sharedMaterial: {fileID: -470715134181834610, guid: 552b788419ac3284d80b8047b2f1a506,
-    type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_outlineColor:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontSize: 5
-  m_fontSizeBase: 5
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 258
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 140
-  m_linkedTextComponent: {fileID: 0}
-  m_isLinkedTextComponent: 0
-  m_isTextTruncated: 0
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_ignoreRectMaskCulling: 0
-  m_ignoreCulling: 1
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_firstVisibleCharacter: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_textInfo:
-    textComponent: {fileID: 28586023}
-    characterCount: 180
-    spriteCount: 0
-    spaceCount: 35
-    wordCount: 31
-    linkCount: 0
-    lineCount: 8
-    pageCount: 1
-    materialCount: 2
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 28586024}
-  m_subTextObjects:
-  - {fileID: 0}
-  - {fileID: 915164371}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_maskType: 0
---- !u!23 &28586024
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28586021}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -470715134181834610, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!222 &28586025
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28586021}
-  m_CullTransparentMesh: 0
---- !u!33 &28586026
-MeshFilter:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28586021}
-  m_Mesh: {fileID: 0}
 --- !u!1 &54828775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,105 +1645,6 @@ MonoBehaviour:
   horizontalSlots: 4
   shipSize: 0.5
   spawner: {fileID: 1294714185}
---- !u!1 &915164369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 915164370}
-  - component: {fileID: 915164373}
-  - component: {fileID: 915164372}
-  - component: {fileID: 915164371}
-  m_Layer: 0
-  m_Name: TMP SubMesh [Azonix SDF Material + LiberationSans SDF Atlas]
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &915164370
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915164369}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 28586022}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &915164371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915164369}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07994bfe8b0e4adb97d706de5dea48d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_spriteAsset: {fileID: 0}
-  m_material: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
-  m_isDefaultMaterial: 0
-  m_padding: 1.25
-  m_renderer: {fileID: 915164373}
-  m_meshFilter: {fileID: 915164372}
-  m_TextComponent: {fileID: 28586023}
---- !u!33 &915164372
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915164369}
-  m_Mesh: {fileID: 0}
---- !u!23 &915164373
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915164369}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &981960112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,12 +1659,12 @@ GameObject:
   - component: {fileID: 981960116}
   - component: {fileID: 981960114}
   m_Layer: 0
-  m_Name: Story2
+  m_Name: Story4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &981960113
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1985,7 +1678,7 @@ RectTransform:
   m_Children:
   - {fileID: 1590073221}
   m_Father: {fileID: 1293532525}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2013,7 +1706,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "The commander has arrived! This ostrich isn\u2019t messing around, and
-    the chicken will have to bring everything it\u2019s got!"
+    the chicken will have to bring everything it\u2019s got!\n\nIt wants to know why
+    the chicken has turned against its own kind. \n\nThe chicken responds, \n\n\x1CBecause...it
+    is the right thing to do!\x1D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
   m_sharedMaterial: {fileID: -470715134181834610, guid: 552b788419ac3284d80b8047b2f1a506,
@@ -2059,7 +1754,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 187
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2083,12 +1778,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 981960114}
-    characterCount: 117
+    characterCount: 251
     spriteCount: 0
-    spaceCount: 18
-    wordCount: 19
+    spaceCount: 46
+    wordCount: 43
     linkCount: 0
-    lineCount: 3
+    lineCount: 10
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
@@ -2173,12 +1868,12 @@ GameObject:
   - component: {fileID: 1102958451}
   - component: {fileID: 1102958449}
   m_Layer: 0
-  m_Name: Story4
+  m_Name: Story3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1102958448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2192,7 +1887,7 @@ RectTransform:
   m_Children:
   - {fileID: 1767271981}
   m_Father: {fileID: 1293532525}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2219,10 +1914,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "By some miracle, the chicken was able to surpass the army. \n\nBut the
-    leader has one last trick up its wing: an asteroid belt, strategically placed
-    between the army and the leader as a defense. \n\nThe chicken must make it out
-    alive!"
+  m_text: 'The chicken is tired from fighting, but remembers its creed:
+
+
+    A chicken never gives up!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
   m_sharedMaterial: {fileID: -470715134181834610, guid: 552b788419ac3284d80b8047b2f1a506,
@@ -2268,7 +1963,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 194
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2292,12 +1987,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1102958449}
-    characterCount: 230
+    characterCount: 87
     spriteCount: 0
-    spaceCount: 45
-    wordCount: 42
+    spaceCount: 15
+    wordCount: 15
     linkCount: 0
-    lineCount: 9
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2514,7 +2209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1203750494
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2788,7 +2483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1276096536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2829,7 +2524,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "First,the brave chicken must face off against an army of ducks, the Flightless
+  m_text: "The brave chicken must face off against an army of ducks, the Flightless
     Empire\u2019s foot soldiers..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
@@ -2900,10 +2595,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1276096537}
-    characterCount: 104
+    characterCount: 98
     spriteCount: 0
     spaceCount: 15
-    wordCount: 17
+    wordCount: 16
     linkCount: 0
     lineCount: 3
     pageCount: 1
@@ -2991,7 +2686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1293532525
 Transform:
   m_ObjectHideFlags: 0
@@ -3005,10 +2700,9 @@ Transform:
   m_Children:
   - {fileID: 1203750494}
   - {fileID: 1276096536}
-  - {fileID: 981960113}
   - {fileID: 1837048430}
   - {fileID: 1102958448}
-  - {fileID: 28586022}
+  - {fileID: 981960113}
   - {fileID: 2027197129}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -3892,12 +3586,12 @@ GameObject:
   - component: {fileID: 1837048433}
   - component: {fileID: 1837048431}
   m_Layer: 0
-  m_Name: Story3
+  m_Name: Story2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1837048430
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3911,7 +3605,7 @@ RectTransform:
   m_Children:
   - {fileID: 1693145820}
   m_Father: {fileID: 1293532525}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3939,7 +3633,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "The chicken has now gained the attention of the Flightless Empire\u2019s
-    great leader. \n\nExterminating it is the Empire\u2019s top priority, and the
+    great commander. \n\nExterminating it is the Empire\u2019s top priority, and the
     best soldiers are being sent to do the job.\n\nGet ready!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 552b788419ac3284d80b8047b2f1a506, type: 2}
@@ -4377,12 +4071,12 @@ GameObject:
   - component: {fileID: 2027197132}
   - component: {fileID: 2027197130}
   m_Layer: 0
-  m_Name: Story6
+  m_Name: Story5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2027197129
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4396,7 +4090,7 @@ RectTransform:
   m_Children:
   - {fileID: 300907169}
   m_Father: {fileID: 1293532525}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4423,7 +4117,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "The rooster leader has been defeated and the day has been won! \n\nThe
+  m_text: "The ostrich commander has been defeated and the day has been won! \n\nThe
     chicken is hailed as a hero by birds of all species, and there is peace in the
     galaxy once again."
   m_isRightToLeft: 0
@@ -4495,7 +4189,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2027197130}
-    characterCount: 166
+    characterCount: 169
     spriteCount: 0
     spaceCount: 34
     wordCount: 33
