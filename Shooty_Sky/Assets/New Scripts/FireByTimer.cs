@@ -35,9 +35,9 @@ public class FireByTimer : MonoBehaviour
             }
 
             float dirX = 0;
-            if (vertical)
+            if (!vertical)
             {
-                dirX = startTargetTracker.startingPos.x < startTargetTracker.targetPos.y ? 1 : -1;
+                dirX = startTargetTracker.startingPos.x < startTargetTracker.targetPos.x ? 1 : -1;
             }
             
             projectile.GetComponent<PositionByConstantVelocity>().direction = new Vector3(dirX, dirY);

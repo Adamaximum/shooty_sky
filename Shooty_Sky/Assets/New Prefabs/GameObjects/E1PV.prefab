@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vertical: 1
   nonHomingAxisDirection: 0
-  speed: 0
+  speed: 7.5
   maneuverability: 0.25
   player: {fileID: 5157401030482662950}
 --- !u!114 &3113789434696769108
