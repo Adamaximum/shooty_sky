@@ -3172,11 +3172,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6264604281377662667, guid: c5b663b0dbdf26b4f99c32cdfd8c5d79,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 1676449462}
     - target: {fileID: 2555825329873411423, guid: c5b663b0dbdf26b4f99c32cdfd8c5d79,
         type: 3}
       propertyPath: m_Name
@@ -3237,6 +3232,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6264604281377662667, guid: c5b663b0dbdf26b4f99c32cdfd8c5d79,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1676449462}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5b663b0dbdf26b4f99c32cdfd8c5d79, type: 3}
 --- !u!1 &1676449461
@@ -3272,7 +3272,7 @@ MonoBehaviour:
   Title: {fileID: 0}
   Subtitle: {fileID: 0}
   story0: {fileID: 1203750495}
-  gameState: 1
+  gameState: 0
 --- !u!4 &1676449463
 Transform:
   m_ObjectHideFlags: 0

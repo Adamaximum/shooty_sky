@@ -13,6 +13,11 @@ public class GameManager : MonoBehaviour
     public Text Subtitle;
 
     public TextMeshPro story0;
+    public TextMeshPro story1;
+    public TextMeshPro story2;
+    public TextMeshPro story3;
+    public TextMeshPro story4;
+    public TextMeshPro story5;
 
     public int gameState = 0;
     //0 = Story0
@@ -34,6 +39,13 @@ public class GameManager : MonoBehaviour
         AsteroidsDestroyed = GameObject.Find("Asteroids Destroyed").GetComponent<Text>();
         Title = GameObject.Find("Title").GetComponent<Text>();
         Subtitle = GameObject.Find("Subtitle").GetComponent<Text>();
+
+        story0 = GameObject.Find("Story0").GetComponent<TextMeshPro>();
+        story1 = GameObject.Find("Story1").GetComponent<TextMeshPro>();
+        story2 = GameObject.Find("Story2").GetComponent<TextMeshPro>();
+        story3 = GameObject.Find("Story3").GetComponent<TextMeshPro>();
+        story4 = GameObject.Find("Story4").GetComponent<TextMeshPro>();
+        story5 = GameObject.Find("Story5").GetComponent<TextMeshPro>();
     }
 
     // Update is called once per frame
