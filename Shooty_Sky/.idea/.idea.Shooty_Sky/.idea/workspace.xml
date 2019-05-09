@@ -14,17 +14,17 @@
         <entry file="file://$PROJECT_DIR$/Assets/New Scripts/FireOnFrames.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <marker date="1557391749789" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557391749789" expanded="true" signature="121:517" ph="{...}" />
-                <marker date="1557391749789" expanded="true" signature="210:515" ph="{...}" />
+                <marker date="1557393035416" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557393035416" expanded="true" signature="121:583" ph="{...}" />
+                <marker date="1557393035416" expanded="true" signature="247:581" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/New Scripts/PositionByUniaxialHoming.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -34,6 +34,21 @@
                 <marker date="1557392018242" expanded="true" signature="133:1210" ph="{...}" />
                 <marker date="1557392018242" expanded="true" signature="430:831" ph="{...}" />
                 <marker date="1557392018242" expanded="true" signature="875:1208" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/ScoreKeeper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <marker date="1557393189658" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557393189658" expanded="true" signature="120:315" ph="{...}" />
+                <marker date="1557393189658" expanded="true" signature="213:234" ph="{...}" />
+                <marker date="1557393189658" expanded="true" signature="292:313" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,10 +77,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/PositionWhileEntering.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/StartingTargetPositionTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/DealDamageOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/PositionByUniaxialHoming.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireOnFrames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireByTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/PositionByConstantVelocity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireByInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScoreKeeper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/DealDamageOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/DestroyOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/SpawnEnemyOnFrames.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,16 +94,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/GenerateSlotsOnStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/PositionByInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/New Scripts/DestroyOnInvisible.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireOnFrames.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireByTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/PositionByConstantVelocity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/New Scripts/FireByInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Testing/EnemyShip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/Ship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/PlayerShip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Testing/ShipMovement.cs" />
@@ -134,10 +149,11 @@
         <option value="$PROJECT_DIR$/Assets/New Scripts/FireOnFrames.cs" />
         <option value="$PROJECT_DIR$/Assets/New Scripts/PositionWhileEntering.cs" />
         <option value="$PROJECT_DIR$/Assets/New Scripts/PositionByUniaxialHoming.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScoreKeeper.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="571" />
     <option name="y" value="103" />
     <option name="width" value="1839" />
@@ -209,12 +225,12 @@
       <workItem from="1557263073782" duration="4993000" />
       <workItem from="1557280011263" duration="3006000" />
       <workItem from="1557332679605" duration="598000" />
-      <workItem from="1557375146620" duration="10492000" />
+      <workItem from="1557375146620" duration="11109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67983000" />
+    <option name="totallyTimeSpent" value="68600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,11 +595,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/New Scripts/FireOnFrames.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <marker date="1557391749789" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557391749789" expanded="true" signature="121:517" ph="{...}" />
-            <marker date="1557391749789" expanded="true" signature="210:515" ph="{...}" />
+            <marker date="1557393035416" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557393035416" expanded="true" signature="121:583" ph="{...}" />
+            <marker date="1557393035416" expanded="true" signature="247:581" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -597,6 +613,19 @@
             <marker date="1557392018242" expanded="true" signature="133:1210" ph="{...}" />
             <marker date="1557392018242" expanded="true" signature="430:831" ph="{...}" />
             <marker date="1557392018242" expanded="true" signature="875:1208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScoreKeeper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <marker date="1557393189658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557393189658" expanded="true" signature="120:315" ph="{...}" />
+            <marker date="1557393189658" expanded="true" signature="213:234" ph="{...}" />
+            <marker date="1557393189658" expanded="true" signature="292:313" ph="{...}" />
           </folding>
         </state>
       </provider>

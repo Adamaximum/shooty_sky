@@ -6,6 +6,7 @@
     <e p="C:\Users\zhouf\Desktop\ShootySkiesClone\shooty_sky\shooty_sky" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="GameMasterTracker.cs" t="Include" />
         <e p="New Scripts" t="Include">
           <e p="ClampPositionOnScreen.cs" t="Include" />
           <e p="DealDamageOnCollision.cs" t="Include" />
@@ -26,6 +27,7 @@
           <e p="SpawnEnemyOnFrames.cs" t="Include" />
           <e p="StartingTargetPositionTracker.cs" t="Include" />
         </e>
+        <e p="ScoreKeeper.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AsteroidControl.cs" t="Include" />
           <e p="BulletControl.cs" t="Include" />
