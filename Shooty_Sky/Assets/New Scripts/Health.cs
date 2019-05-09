@@ -14,7 +14,9 @@ public class Health : MonoBehaviour
     public AudioSource audioSource;
 
     public GameMasterTracker tracker;
-    
+
+    public GameObject explosionPrefab;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -32,6 +34,8 @@ public class Health : MonoBehaviour
             {
                 tracker.gameManager.score += scoreOnKilled;
             }
+            GameObject explosion = Instantiate(explosionPrefab);
+            explosion.transform.position = transform.position;
             Destroy(gameObject);
         }
     }

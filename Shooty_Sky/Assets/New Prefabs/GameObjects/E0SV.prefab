@@ -196,6 +196,8 @@ MonoBehaviour:
   currentHealth: 0
   audioSource: {fileID: 3172414464719558868}
   tracker: {fileID: 2107848763685708990}
+  explosionPrefab: {fileID: 1710951136005000, guid: d646399f6853bd246b559f6ba2f67daf,
+    type: 3}
 --- !u!114 &8711980765403011854
 MonoBehaviour:
   m_ObjectHideFlags: 0

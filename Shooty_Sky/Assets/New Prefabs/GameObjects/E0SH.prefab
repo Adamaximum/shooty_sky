@@ -323,6 +323,8 @@ MonoBehaviour:
   currentHealth: 0
   audioSource: {fileID: 771597016426278033}
   tracker: {fileID: -6082683448288091484}
+  explosionPrefab: {fileID: 1710951136005000, guid: d646399f6853bd246b559f6ba2f67daf,
+    type: 3}
 --- !u!114 &8711980765403011854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,16 +705,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3612700721277475613, guid: cd0f228a81478ce43b3db1db6bd77abf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 3112515315267060792, guid: cd0f228a81478ce43b3db1db6bd77abf,
         type: 3}
       propertyPath: health
       value: 
       objectReference: {fileID: 9133662956813932823}
+    - target: {fileID: 3612700721277475613, guid: cd0f228a81478ce43b3db1db6bd77abf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd0f228a81478ce43b3db1db6bd77abf, type: 3}
 --- !u!4 &1009587990982793466 stripped

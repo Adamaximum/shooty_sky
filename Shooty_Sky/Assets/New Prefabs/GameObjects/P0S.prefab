@@ -26,7 +26,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5266606304134031818
 Transform:
   m_ObjectHideFlags: 0
@@ -169,6 +169,8 @@ MonoBehaviour:
   currentHealth: 0
   audioSource: {fileID: 8635235953024908914}
   tracker: {fileID: 6264604281377662667}
+  explosionPrefab: {fileID: 1710951136005000, guid: d646399f6853bd246b559f6ba2f67daf,
+    type: 3}
 --- !u!114 &4100795809375542861
 MonoBehaviour:
   m_ObjectHideFlags: 0
