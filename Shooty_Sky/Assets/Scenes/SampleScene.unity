@@ -2706,7 +2706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1293532525
 Transform:
   m_ObjectHideFlags: 0
@@ -3271,6 +3271,7 @@ MonoBehaviour:
   AsteroidsDestroyed: {fileID: 0}
   Title: {fileID: 0}
   Subtitle: {fileID: 0}
+  story0: {fileID: 1203750495}
   gameState: 1
 --- !u!4 &1676449463
 Transform:

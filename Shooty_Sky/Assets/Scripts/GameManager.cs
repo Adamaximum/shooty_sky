@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public Text Title;
     public Text Subtitle;
 
+    public TextMeshPro story0;
+
     public int gameState = 0;
     //0 = Story0
     //1 = Title
