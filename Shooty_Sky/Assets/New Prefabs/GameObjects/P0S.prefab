@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a922190f88ac84c8c05c5e54c4efa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 20
   audioSource: {fileID: 8635235953024908914}
 --- !u!114 &4100795809375542861
 MonoBehaviour:
