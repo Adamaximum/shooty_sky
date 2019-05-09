@@ -9,7 +9,7 @@ public class Health : MonoBehaviour
     
     public float maxHealth;
 
-    private float _currentHealth;
+    public float currentHealth;
 
     public AudioSource audioSource;
 
@@ -18,15 +18,15 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        _currentHealth = maxHealth;
+        currentHealth = maxHealth;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         audioSource.Play();
 
-        _currentHealth -= other.gameObject.GetComponent<DealDamageOnCollision>().damage;
-        if (_currentHealth <= 0)
+        currentHealth -= other.gameObject.GetComponent<DealDamageOnCollision>().damage;
+        if (currentHealth <= 0)
         {
             if (enemy)
             {
