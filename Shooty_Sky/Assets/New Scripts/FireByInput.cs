@@ -6,23 +6,44 @@ using UnityEngine;
 
 public class FireByInput : MonoBehaviour
 {
-    public GameObject bullet;
+    public GameObject p0P0;
+    public GameObject p0P1;
+    
     public float coolDownTime;
 
     private float _coolDownRemaining = 0;
 
+    private Vector3 lastPosition;
+    private Vector3 thisPosition;
+
+    private void Start()
+    {
+        thisPosition = transform.position;
+    }
+
     // Start is called before the first frame update
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && _coolDownRemaining <= 0)
+        lastPosition = thisPosition;
+        thisPosition = transform.position;
+        
+        if (Input.GetKey(KeyCode.LeftShift) && _coolDownRemaining <= 0)
         {
-            Instantiate(bullet, transform.position, Quaternion.identity);
+            var projectile = Instantiate(p0P1, transform.position, Quaternion.identity);
+            projectile.GetComponent<PositionByConstantVelocity>().direction =
+                (thisPosition - lastPosition == Vector3.zero)
+                    ? Vector3.up
+                    : (thisPosition - lastPosition).normalized;
             _coolDownRemaining = coolDownTime;
         }
-        else if (_coolDownRemaining > 0)
+        else if (Input.GetKey(KeyCode.Space) && _coolDownRemaining <= 0)
+        {
+            Instantiate(p0P0, transform.position, Quaternion.identity);
+            _coolDownRemaining = coolDownTime;
+        }
+        else
         {
             _coolDownRemaining -= Time.deltaTime;
         }
     }
-    
 }

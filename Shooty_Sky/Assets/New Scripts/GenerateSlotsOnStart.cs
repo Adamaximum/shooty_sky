@@ -1,82 +1,84 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class GenerateSlotsOnStart : MonoBehaviour
 {
-
-    public bool killSlots;
+    public int shipType;
     public int verticalSlots;
     public int horizontalSlots;
-    public float slotSize;
+    public float shipSize;
 
     public SpawnEnemyOnFrames spawner;
     
     // Start is called before the first frame update
     private void Start()
     {
-        if (killSlots)
+        var slots = new[]
         {
-            spawner.killSlots = new Transform[verticalSlots + horizontalSlots];
-        }
-        else
+            GenerateSlotRow(true),
+            GenerateSlotColumn(true),
+            GenerateSlotRow(false),
+            GenerateSlotColumn(false)
+        };
+
+        switch (shipType)
         {
-            spawner.spawnSlots = new Transform[verticalSlots + horizontalSlots];
-        }
-        
-        for (var i = 0; i < verticalSlots + horizontalSlots; i++)
-        {
-            if (killSlots)
-            {
-                spawner.killSlots[i] = new GameObject("Slot" + i).transform;
-                spawner.killSlots[i].position = SlotPosition(i);
-                spawner.killSlots[i].SetParent(gameObject.transform);
-            }
-            else
-            {
-                spawner.spawnSlots[i] = new GameObject("Slot" + i).transform;
-                spawner.spawnSlots[i].position = SlotPosition(i);
-                spawner.spawnSlots[i].SetParent(gameObject.transform);
-            }
+            case 0:
+                spawner.type0Slots = slots;
+                break;
+            case 1:
+                spawner.type1Slots = slots;
+                break;
+            case 2:
+                spawner.type2Slots = slots;
+                break;
         }
     }
 
-    private Vector3 SlotPosition(int currentSlot)
-    {
-        float posX;
-        float posY;
 
-        var s2WMax = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height));
-        var s2WMin = Camera.main.ScreenToWorldPoint(Vector3.zero);
-        
-        if (currentSlot < verticalSlots / 2)
+    private Transform[] GenerateSlotRow(bool top)
+    {
+        var slots = new Transform[verticalSlots];
+        for (var i = 0; i < verticalSlots; i++)
         {
-            posX = killSlots 
-                ? s2WMax.x + slotSize 
-                : s2WMin.x - slotSize;
-            posY = killSlots 
-                ? s2WMin.y * (currentSlot + 1) / (verticalSlots / 2f + 1) 
-                : s2WMax.y * (currentSlot + 1) / (verticalSlots / 2f + 1);
+            slots[i] = new GameObject("slot" + i).transform;
+            slots[i].SetParent(gameObject.transform);
+            slots[i].localPosition = RowSlotPosition(top, i);
         }
-        else if (currentSlot >= horizontalSlots + verticalSlots / 2)
+        return slots;
+    }
+
+    private Transform[] GenerateSlotColumn(bool left)
+    {
+        var slots = new Transform[horizontalSlots];
+        for (var i = 0; i < horizontalSlots; i++)
         {
-            posX = killSlots
-                ? s2WMin.x - slotSize
-                : s2WMax.x + slotSize;
-            posY = killSlots
-                ? s2WMin.y * ((verticalSlots + horizontalSlots) - (currentSlot)) / (verticalSlots / 2f + 1)
-                : s2WMax.y * ((verticalSlots + horizontalSlots) - (currentSlot)) / (verticalSlots / 2f + 1);
+            slots[i] = new GameObject("slot" + i).transform;
+            slots[i].SetParent(gameObject.transform);
+            slots[i].localPosition = ColumnSlotPosition(left, i);
         }
-        else
-        {
-            posY = killSlots
-                ? s2WMin.y - slotSize
-                : s2WMax.y + slotSize;
-            posX = killSlots
-                ? s2WMax.x - s2WMax.x * 2 * (currentSlot - verticalSlots / 2 + 1) / (horizontalSlots + 1)
-                : s2WMin.x + s2WMax.x * 2 * (currentSlot - verticalSlots / 2 + 1) / (horizontalSlots + 1);
-        }
+
+        return slots;
+    }
+
+    private Vector3 RowSlotPosition(bool top, int index)
+    {
+        var screenMax = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height));
+        var screenMin = Camera.main.ScreenToWorldPoint(Vector3.zero);
+        var posY = top ? screenMax.y + shipSize / 2 : screenMin.y - shipSize / 2;
+        var posX = screenMin.x + (screenMax.x - screenMin.x) * (index + 1) / (verticalSlots + 1);
+        return new Vector3(posX, posY);
+    }
+
+    private Vector3 ColumnSlotPosition(bool left, int index)
+    {
+        var screenMax = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height));
+        var screenMin = Camera.main.ScreenToWorldPoint(Vector3.zero);
+        var posX = left ? screenMin.x - shipSize / 2 : screenMax.x + shipSize / 2;
+        var posY = screenMax.y - (screenMax.y - screenMin.y) * (index + 1) / (horizontalSlots + 1);
         return new Vector3(posX, posY);
     }
 }

@@ -31,7 +31,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5
+    m_StopTime: 48
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -51,58 +51,191 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.5
+  - time: 0
     functionName: SpawnEnemy
-    data: 0,3
+    data: 0,0,2,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 0
     functionName: SpawnEnemy
-    data: 0,9
+    data: 0,0,4,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 0
     functionName: SpawnEnemy
-    data: 0,6
+    data: 0,0,6,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 0
     functionName: SpawnEnemy
-    data: 0,2
+    data: 0,0,0,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 10
     functionName: SpawnEnemy
-    data: 0,8
+    data: 0,0,3,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 10
     functionName: SpawnEnemy
-    data: 0,4
+    data: 0,0,4,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 11
     functionName: SpawnEnemy
-    data: 0,7
+    data: 0,0,2,false
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
+  - time: 11
     functionName: SpawnEnemy
-    data: 0,5
+    data: 0,0,5,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12
+    functionName: SpawnEnemy
+    data: 0,0,6,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12
+    functionName: SpawnEnemy
+    data: 0,0,1,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 13
+    functionName: SpawnEnemy
+    data: 0,0,0,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 13
+    functionName: SpawnEnemy
+    data: 0,0,7,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 25
+    functionName: SpawnEnemy
+    data: 0,0,0,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 25
+    functionName: SpawnEnemy
+    data: 0,0,7,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 25.5
+    functionName: SpawnEnemy
+    data: 0,0,1,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 25.5
+    functionName: SpawnEnemy
+    data: 0,0,6,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 26
+    functionName: SpawnEnemy
+    data: 0,0,2,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 26
+    functionName: SpawnEnemy
+    data: 0,0,5,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 26.5
+    functionName: SpawnEnemy
+    data: 0,0,3,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 26.5
+    functionName: SpawnEnemy
+    data: 0,0,4,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 27
+    functionName: SpawnEnemy
+    data: 0,0,2,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 27
+    functionName: SpawnEnemy
+    data: 0,0,5,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 27.5
+    functionName: SpawnEnemy
+    data: 0,0,1,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 27.5
+    functionName: SpawnEnemy
+    data: 0,0,6,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 28
+    functionName: SpawnEnemy
+    data: 0,0,0,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 28
+    functionName: SpawnEnemy
+    data: 0,0,7,false
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 48
+    functionName: PrintMessage
+    data: L0W0 Complete
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

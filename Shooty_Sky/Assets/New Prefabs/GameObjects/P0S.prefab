@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5064765308749812230}
   - component: {fileID: 2717674166745726723}
   m_Layer: 9
-  m_Name: PlayerShip
+  m_Name: P0S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8972b9f8ef5c44d97ba2cf78f7071211, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aff76b787c8864fbeb944a7c8f3bd5c6, type: 3}
   m_Color: {r: 0, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.21, y: 0.21}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a922190f88ac84c8c05c5e54c4efa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 4.5
+  maxHealth: 10
 --- !u!114 &4100795809375542861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,8 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ba8e70fef7ea74c9ffa701a4529972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 924829604478019701, guid: 00eeaebe526818445a35b9d357c3d17d, type: 3}
-  coolDownTime: 0.25
+  p0P0: {fileID: 924829604478019701, guid: 00eeaebe526818445a35b9d357c3d17d, type: 3}
+  p0P1: {fileID: 924829604478019701, guid: 252dd2c8154e05041a03719ed66cfdaf, type: 3}
+  coolDownTime: 0.2
 --- !u!114 &2717674166745726723
 MonoBehaviour:
   m_ObjectHideFlags: 0

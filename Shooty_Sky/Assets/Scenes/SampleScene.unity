@@ -439,6 +439,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28586021}
   m_Mesh: {fileID: 0}
+--- !u!1 &54828775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54828776}
+  - component: {fileID: 54828777}
+  m_Layer: 0
+  m_Name: Type1Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54828776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54828775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1294714184}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &54828777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54828775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e265a4c5afcfa0440ac84fd0c8c908bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipType: 1
+  verticalSlots: 4
+  horizontalSlots: 2
+  shipSize: 1
+  spawner: {fileID: 1294714185}
 --- !u!1 &57500997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,54 +1672,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &794489091
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 794489092}
-  - component: {fileID: 794489093}
-  m_Layer: 0
-  m_Name: KillSlots
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &794489092
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794489091}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1294714184}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &794489093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794489091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e265a4c5afcfa0440ac84fd0c8c908bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  killSlots: 1
-  verticalSlots: 4
-  horizontalSlots: 8
-  slotSize: 2
-  spawner: {fileID: 1294714185}
 --- !u!1 &801223014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,6 +1799,54 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &906728199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906728200}
+  - component: {fileID: 906728201}
+  m_Layer: 0
+  m_Name: Type0Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906728200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906728199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1294714184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906728201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906728199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e265a4c5afcfa0440ac84fd0c8c908bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipType: 0
+  verticalSlots: 8
+  horizontalSlots: 4
+  shipSize: 0.5
+  spawner: {fileID: 1294714185}
 --- !u!1 &915164369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,8 +3036,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1945929031}
-  - {fileID: 794489092}
+  - {fileID: 906728200}
+  - {fileID: 54828776}
+  - {fileID: 1939241865}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3009,8 +3058,9 @@ MonoBehaviour:
   - {fileID: 2303440976548321471, guid: 97e672720aea407439b5af3e9282f158, type: 3}
   - {fileID: 7146330645478656584, guid: e7627a537dfeefc43a394675e987b09f, type: 3}
   - {fileID: 4089701418462993065, guid: b37e9aaf62af11849aff728219316c24, type: 3}
-  spawnSlots: []
-  killSlots: []
+  - {fileID: 2303440976548321471, guid: 74a54ea8c2b28924cb16368b5a5c86ff, type: 3}
+  - {fileID: 7146330645478656584, guid: 52e94e4c6f0a2f14dbb8f92a930a373d, type: 3}
+  - {fileID: 4089701418462993065, guid: fd08801b80fbb9a4f94488bbd4f6468e, type: 3}
 --- !u!95 &1294714186
 Animator:
   serializedVersion: 3
@@ -3450,7 +3500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1676449462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4033,7 +4083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1898516725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4117,7 +4167,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1945929030
+--- !u!1 &1939241864
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4125,45 +4175,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1945929031}
-  - component: {fileID: 1945929032}
+  - component: {fileID: 1939241865}
+  - component: {fileID: 1939241866}
   m_Layer: 0
-  m_Name: SpawnSlots
+  m_Name: Type2Slots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1945929031
+--- !u!4 &1939241865
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945929030}
+  m_GameObject: {fileID: 1939241864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1294714184}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1945929032
+--- !u!114 &1939241866
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945929030}
+  m_GameObject: {fileID: 1939241864}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e265a4c5afcfa0440ac84fd0c8c908bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killSlots: 0
-  verticalSlots: 4
-  horizontalSlots: 8
-  slotSize: 0.5
+  shipType: 2
+  verticalSlots: 2
+  horizontalSlots: 1
+  shipSize: 2
   spawner: {fileID: 1294714185}
 --- !u!1 &1962044407
 GameObject:

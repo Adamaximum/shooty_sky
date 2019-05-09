@@ -17,7 +17,6 @@ public class Health : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("called on " + gameObject.name);
         _currentHealth -= other.gameObject.GetComponent<DealDamageOnCollision>().damage;
         if (_currentHealth <= 0)
         {
