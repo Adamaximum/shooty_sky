@@ -11,14 +11,15 @@ public class PositionWhileFiring : StateMachineBehaviour
 
     
     public Vector3 ratios;
-    public StartingTargetPositionTracker startTargetTracker;
+    private StartingTargetPositionTracker _startTargetTracker;
     private Vector3 _anchorPosition;
     
     private float _currentTime; 
     
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        _anchorPosition = new Vector3((startTargetTracker.targetPos - startTargetTracker.targetPos).x * ratios.x, (startTargetTracker.targetPos - startTargetTracker.targetPos).y * ratios.y);
+        _startTargetTracker = animator.gameObject.GetComponent<StartingTargetPositionTracker>();
+        _anchorPosition = _startTargetTracker.startingPos + new Vector2((_startTargetTracker.targetPos - _startTargetTracker.startingPos).x * ratios.x, (_startTargetTracker.targetPos - _startTargetTracker.startingPos).y * ratios.y);
         _currentTime = 0;
     }
     
@@ -29,5 +30,7 @@ public class PositionWhileFiring : StateMachineBehaviour
         var y = Mathf.Lerp(-swayAmp.y, swayAmp.y, posYLoop.Evaluate((_currentTime % loopTime) / loopTime));
         var deviationFromAnchor = new Vector3(x,y);
         animator.gameObject.transform.position = _anchorPosition + deviationFromAnchor;
+
+        _currentTime += Time.deltaTime;
     }
 }

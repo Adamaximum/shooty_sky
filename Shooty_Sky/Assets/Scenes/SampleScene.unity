@@ -2757,7 +2757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyTypes:
   - {fileID: 2303440976548321471, guid: 97e672720aea407439b5af3e9282f158, type: 3}
-  - {fileID: 7146330645478656584, guid: e7627a537dfeefc43a394675e987b09f, type: 3}
+  - {fileID: 7146330645478656584, guid: 0e6efe5cf859ce84d8712a8bf2754edb, type: 3}
   - {fileID: 4089701418462993065, guid: b37e9aaf62af11849aff728219316c24, type: 3}
   - {fileID: 2303440976548321471, guid: 74a54ea8c2b28924cb16368b5a5c86ff, type: 3}
   - {fileID: 7146330645478656584, guid: 52e94e4c6f0a2f14dbb8f92a930a373d, type: 3}

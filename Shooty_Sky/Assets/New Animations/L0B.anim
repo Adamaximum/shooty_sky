@@ -53,7 +53,7 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: SpawnEnemy
-    data: 1,0,3,true
+    data: 1,0,1,true
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

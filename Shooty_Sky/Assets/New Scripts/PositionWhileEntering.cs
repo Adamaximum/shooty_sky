@@ -6,18 +6,18 @@ public class PositionWhileEntering : StateMachineBehaviour
 {
     
     public Vector3 ratios;
-    public StartingTargetPositionTracker startTargetTracker;
+    private StartingTargetPositionTracker _startTargetTracker;
     public float time;
     public AnimationCurve pos;
 
     private Vector3 _anchorPosition;
     private float _currentTime;
-    private static readonly int Entered = Animator.StringToHash("Entered");
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        _anchorPosition = new Vector3((startTargetTracker.targetPos - startTargetTracker.targetPos).x * ratios.x, (startTargetTracker.targetPos - startTargetTracker.targetPos).y * ratios.y);
+        _startTargetTracker = animator.gameObject.GetComponent<StartingTargetPositionTracker>();
+        _anchorPosition = _startTargetTracker.startingPos + new Vector2((_startTargetTracker.targetPos - _startTargetTracker.startingPos).x * ratios.x, (_startTargetTracker.targetPos - _startTargetTracker.startingPos).y * ratios.y);
         _currentTime = 0;
     }
 
@@ -26,10 +26,12 @@ public class PositionWhileEntering : StateMachineBehaviour
     {
         if (_currentTime > time)
         {
-            animator.SetBool(Entered, true);
+            animator.SetBool("Entered", true);
         }
 
-        animator.gameObject.transform.position = Vector3.Lerp(startTargetTracker.startingPos, _anchorPosition,
+        animator.gameObject.transform.position = Vector3.Lerp(_startTargetTracker.startingPos, _anchorPosition,
             pos.Evaluate(_currentTime / time));
+
+        _currentTime += Time.deltaTime;
     }
 }

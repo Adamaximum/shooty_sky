@@ -22,7 +22,7 @@ public class PositionByUniaxialHoming : MonoBehaviour
         var dirX = vertical ? GetHomingAxisDirection() : nonHomingAxisDirection;
         
         var dir = new Vector3(dirX, dirY);
-        var deltaPosition = dir.normalized * speed;
+        var deltaPosition = dir.normalized * speed * Time.deltaTime;
 
         transform.position += deltaPosition;
     }

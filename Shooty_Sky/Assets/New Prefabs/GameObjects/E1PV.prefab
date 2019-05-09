@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4261149790925831286}
   - component: {fileID: 3113789434696769108}
   - component: {fileID: 1799501431949049316}
-  - component: {fileID: -8466173246107036639}
+  - component: {fileID: 5207026460730550689}
   m_Layer: 12
   m_Name: E1PV
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8888007262396172937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
   vertical: 1
   nonHomingAxisDirection: 0
   speed: 7.5
-  maneuverability: 0.25
+  maneuverability: 0.5
   player: {fileID: 5157401030482662950}
 --- !u!114 &3113789434696769108
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a17d74dc7b873408245579ac4a6c2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-8466173246107036639
+--- !u!114 &5207026460730550689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
