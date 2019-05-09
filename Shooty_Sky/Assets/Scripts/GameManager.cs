@@ -7,18 +7,26 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public Text AsteroidsDestroyed;
+    public float score;
 
-    public Text Title;
-    public Text Subtitle;
+    public GameObject title;
 
-    public TextMeshPro story0;
-    public TextMeshPro story1;
-    public TextMeshPro story2;
-    public TextMeshPro story3;
-    public TextMeshPro story4;
-    public TextMeshPro story5;
+    public GameObject scoreText;
 
+    public GameObject story0;
+    public GameObject story1;
+    public GameObject story2;
+    public GameObject story3;
+    public GameObject story4;
+    public GameObject story5;
+
+    public GameObject gameOver;
+
+    public Animator enemySystem;
+
+    public GameObject player;
+
+    private int lastGameState = 0;
     public int gameState = 0;
     //0 = Story0
     //1 = Title
@@ -34,24 +42,19 @@ public class GameManager : MonoBehaviour
     //11 = Game Over
 
     // Use this for initialization
-    void Start ()
+    private void Start ()
     {
-        AsteroidsDestroyed = GameObject.Find("Asteroids Destroyed").GetComponent<Text>();
-        Title = GameObject.Find("Title").GetComponent<Text>();
-        Subtitle = GameObject.Find("Subtitle").GetComponent<Text>();
-
-        story0 = GameObject.Find("Story0").GetComponent<TextMeshPro>();
-        story1 = GameObject.Find("Story1").GetComponent<TextMeshPro>();
-        story2 = GameObject.Find("Story2").GetComponent<TextMeshPro>();
-        story3 = GameObject.Find("Story3").GetComponent<TextMeshPro>();
-        story4 = GameObject.Find("Story4").GetComponent<TextMeshPro>();
-        story5 = GameObject.Find("Story5").GetComponent<TextMeshPro>();
+        GameStates();
+        score = 0;
     }
 
     // Update is called once per frame
-    void Update ()
+    private void Update ()
     {
-        gameStates();
+        if (lastGameState != gameState)
+        {
+            GameStates();
+        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -61,67 +64,93 @@ public class GameManager : MonoBehaviour
         {
             Application.Quit();
         }
+        
+        lastGameState = gameState;
     }
 
-    void gameStates()
+    private void GameStates()
     {
         if (gameState == 0) //Story0
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                gameState++;
-            }
-            AsteroidsDestroyed.text = "";
+            story0.SetActive(true);
         }
         if (gameState == 1) //Title
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                gameState++;
-            }
+            story0.SetActive(false);
+            
+            title.SetActive(true);
         }
         if (gameState == 2) //Story1
         {
-            Title.text = "";
-            Subtitle.text = "";
+            title.SetActive(false);
             
+            story1.SetActive(true);
         }
         if (gameState == 3) //Wave0
         {
-            AsteroidsDestroyed.text = "Score:";
+            story1.SetActive(false);
+            
+            scoreText.SetActive(true);
+            player.SetActive(true);
+            enemySystem.SetBool("Wave0Called", true);
         }
         if (gameState == 4) //Story2
         {
+            scoreText.SetActive(false);
+            player.SetActive(false);
             
+            story2.SetActive(true);
         }
         if (gameState == 5) //Wave1
         {
-
+            story2.SetActive(false);
+            
+            scoreText.SetActive(true);
+            player.SetActive(true);
+            enemySystem.SetBool("Wave1Called", true);
         }
         if (gameState == 6) //Story3
         {
-
+            scoreText.SetActive(false);
+            player.SetActive(false);
+            
+            story3.SetActive(true);
         }
         if (gameState == 7) //Wave2
         {
-
+            story3.SetActive(false);
+            
+            scoreText.SetActive(true);
+            player.SetActive(true);
+            enemySystem.SetBool("Wave2Called", true);
         }
         if (gameState == 8) //Story4
         {
-
+            scoreText.SetActive(false);
+            player.SetActive(false);
+            
+            story4.SetActive(true);
         }
         if (gameState == 9) //Boss
         {
-
+            story4.SetActive(false);
+            
+            scoreText.SetActive(true);
+            player.SetActive(true);
+            enemySystem.SetBool("BossCalled", true);
         }
         if (gameState == 10) //Story5 / Play Again
         {
-
+            scoreText.SetActive(false);
+            player.SetActive(false);
+            
+            story5.SetActive(true);
         }
         if (gameState == 11) //Game Over
         {
-            Title.text = "\nGame Over!";
-            Subtitle.text = "\n\n\n\nPress R to Play Again!";
+            scoreText.SetActive(false);
+            
+            gameOver.SetActive(true);
         }
     }
 }

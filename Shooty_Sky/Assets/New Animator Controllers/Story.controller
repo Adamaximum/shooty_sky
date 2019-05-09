@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffdf73d1672f8f64a966cc34d6a76572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 0
+  delayTime: 5
 --- !u!1101 &9121052595313211508
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

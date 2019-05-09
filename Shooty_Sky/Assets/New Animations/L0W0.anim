@@ -234,8 +234,8 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 48
-    functionName: PrintMessage
-    data: L0W0 Complete
+    functionName: ProgressState
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

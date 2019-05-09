@@ -189,8 +189,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a922190f88ac84c8c05c5e54c4efa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: 1
+  scoreOnKilled: 5
   maxHealth: 5
   audioSource: {fileID: 3172414464719558868}
+  tracker: {fileID: 2107848763685708990}
 --- !u!114 &8711980765403011854
 MonoBehaviour:
   m_ObjectHideFlags: 0
