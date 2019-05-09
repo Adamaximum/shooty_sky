@@ -67,7 +67,10 @@ public class GameManager : MonoBehaviour
     {
         if (gameState == 0) //Story0
         {
-
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                gameState++;
+            }
             AsteroidsDestroyed.text = "";
         }
         if (gameState == 1) //Title
