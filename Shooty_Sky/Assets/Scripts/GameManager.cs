@@ -29,6 +29,15 @@ public class GameManager : MonoBehaviour
     void Update ()
     {
         gameStates();
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void gameStates()
@@ -49,10 +58,6 @@ public class GameManager : MonoBehaviour
         }
         if (gameState == 3) //End State
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                SceneManager.LoadScene("SampleScene");
-            }
             Title.text = "\nGame Over!";
             Subtitle.text = "\n\n\n\nPress R to Play Again!";
         }
