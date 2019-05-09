@@ -27,7 +27,6 @@
           <e p="SpawnEnemyOnFrames.cs" t="Include" />
           <e p="StartingTargetPositionTracker.cs" t="Include" />
         </e>
-        <e p="ScoreKeeper.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AsteroidControl.cs" t="Include" />
           <e p="BulletControl.cs" t="Include" />
