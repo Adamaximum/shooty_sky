@@ -356,6 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8888007262396172937, guid: a9e2d42da5b16954f99b337fdd247ca6, type: 3}
   player: {fileID: 5021213150552771237}
+  audioSource: {fileID: 4139319255156893370}
 --- !u!114 &-5616463326277229546
 MonoBehaviour:
   m_ObjectHideFlags: 0
